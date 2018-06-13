@@ -161,14 +161,6 @@ def main():
     print('Mutual KNN complete.')
     p, r, mismatched, unmatched  = pr_values(mnn_M, truth)
     print('Precision = %s, Recall = %s' %(p, r))
-    mismatched_lab = [labels[i] for i in mismatched]
-    unmatched_lab = np.unique([ labels[i] for i in unmatched])
-    print('The following songs have been mismatched: ')
-    for i in range(len(mismatched)):
-        print('%s matched with %s' %(mismatched_lab[i], labels[np.where(mnn_M[i] == 1)[0][0]]))
-    print('The follong songs have been unmatched: ')
-    for i in unmatched_lab:
-        print(i)
 
 if __name__ == "__main__":
     main()
