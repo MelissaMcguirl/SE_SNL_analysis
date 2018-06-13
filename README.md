@@ -1,4 +1,4 @@
-# SE_SNL_analysis
+# SE and SNL Diagrams: A novel, flexible  data structure for music-based data streams
 
 A softward for generating Start-End and Start-Normalized Length Diagrams from Aligned Hierarchies  for Music-Based Data. 
 
