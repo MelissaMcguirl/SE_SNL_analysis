@@ -56,7 +56,10 @@ Hera (available here: https://bitbucket.org/grey_narn/hera.git), Python 2.7, num
   2) Save mutual knn results to text file 
   
 # References and citation for this software 
+
 This accompanying paper for this sofware is:  
 - add citation 
+
 For more information on Aligned Hierarchies see: 
+
 -K. M. Kinnaird. Aligned Hierarchies: A Multi-Scale Structure-based Representation For Music-Based Data Streams. Proceedings of the 17th ISMIR Conference, New York City, 2016. 
