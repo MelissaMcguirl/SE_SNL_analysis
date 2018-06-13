@@ -20,7 +20,7 @@ Precision and Recall values for mutual k-nearest neighbor matching on SE/SNL dia
 
 # User options
   1) Wasserstein Inner Norm: Value in [1.0, Infinity]
-  2) Wasserstein Outter Norm: Value in [1.0, Infinity] (note, when the outernorm =infinity you are using the Bottleneck metric. In this case the inner norm is also set to l-infinity)
+  2) Wasserstein Outer Norm: Value in [1.0, Infinity] (note, when the outer norm =infinit you are using the Bottleneck metric. In this case the inner norm is automatically set to l-infinity)
   3) Normalization (for run_SNLD.py): 'none' for no mormalization, 'std' for ordinary normalization, or 'cheb' for chebyshev normalization.
   4) Alpha: Scaling parameter alpha, alpha = 1 indicates no scaling.
 
