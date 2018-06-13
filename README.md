@@ -51,7 +51,7 @@ Hera (available here: https://bitbucket.org/grey_narn/hera.git), Python 2.7, num
 # Help
 0) python TREE.py -h
 
-FUTURE WORK:
+# Updates for future releases 
   1) Make sofware flexible for cases where truth is not known
   2) Save mutual knn results to text file 
   
