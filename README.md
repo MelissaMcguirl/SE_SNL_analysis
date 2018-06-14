@@ -31,6 +31,8 @@ python run_SNLD.py [-h HELP_MENU] -I INPUT_DIRECTORY -N NORMALIZATION -A ALPHA -
 # Dependencies
 Hera (available here: https://bitbucket.org/grey_narn/hera.git), Python 2.7, numpy, scipy, sklearn 
 
+*IMPORTANT* If you are using hera to compute distances between SL or SnL diagrams, you must first modify the hera source code to move the 'diagonal' to the y-axis. This should be done in basic_defs.cpp for both the Wasserstein and Bottleneck codes. 
+
 # Examples
   1) python run_E.py -I ../data/Thresh01_ShingleNumber6/ -w 2 -W 2  (SE diagrams with 2-2 Wasserstein metric)
   2) python run_SNLD.py -I ../data/Thresh01_ShingleNumber6/ -N none -A 0 -w 2 -W 2  (SL diagrams with 2-2 Wasserstein metric)
